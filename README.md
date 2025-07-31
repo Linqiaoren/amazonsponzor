@@ -41,3 +41,61 @@
 </body>
 </html>
 
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #232f3e;
+  color: white;
+  padding: 40px 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px 20px;
+}
+
+.product-card {
+  background-color: white;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: left;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.buy-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 20px;
+  background-color: #ff9900;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.buy-button:hover {
+  background-color: #e68a00;
+}
+
+footer {
+  background-color: #eee;
+  padding: 20px;
+  font-size: 14px;
+  color: #666;
+}
